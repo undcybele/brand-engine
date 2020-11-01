@@ -2,11 +2,13 @@ body {
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
-  background: url(./img/r.gif) no-repeat center top / cover;
-  height: 1200px;
+  background: url(./img/f.jpg) no-repeat center top / cover;
+  height: 100vh;
+  width: 100vw;
 }
 div {
   box-sizing: border-box;
@@ -46,8 +48,8 @@ nav {
 }
 
 .title {
-  margin-left: 388px;
-  padding-top: 709px;
+  margin: 0 auto;
+  padding-top: 10vh;
 }
 
 .slogan {
